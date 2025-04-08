@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 13rem;
+    background: url(./img/computer.jpg);
+    background-size: 100% 100%; /* Encontra o melhor tamanho que completa a tela */
+    background-repeat:no-repeat; /* Não deixar repetir a imagem */
+    background-position: center; /* Posiciona a imagem no centro da tela */
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 50rem;
+    height: 10rem;
+    margin-bottom: 12rem;
+}
+
+.content-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 2rem;
+    box-shadow: 5px 8px 10px ;
+    background: url(./img/backgrondDev.jpg);
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #002a53;
+    text-shadow: 1px 1px 1px #63fdc0;
+}
+
+.content-pergunta {
+    margin: 2rem 0 1rem 0;
+    color: #002a53;
+    text-align: center;
+    text-shadow: 1px 1px 1px #63fdc0;
+    font-size: 2rem;
+}
+
+button {
+    width: 8rem;
+    height: 6rem;
+    border: transparent;
+    border-radius: 2rem;
+    transition: background-color 0.6s ease-in-out;
+    font-size: 1.50rem;
+}
+
+button:hover {
+    border: 1px solid #3b3a3b;
+}
+
+.dollar:hover {
+    background-color: #c9031a;
+    color: #b62536;
+}
+
+.reais:hover {
+    background-color: #2cb401;
+    color: #52d12b;
+}
+
+.euro:hover {
+    background-color: #243a69;
+    color: #1668bb;
+}
+
+.iene:hover {
+    background-color: #e9ff39;
+    color: #c7e009;
+}
