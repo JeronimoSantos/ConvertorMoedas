@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 8rem;
+    background: url(./img/computer-4795762_1920.jpg);
+    background-size: 100% 100%; /* Encontra o melhor tamanho que completa a tela */
+    background-repeat:no-repeat; /* Não deixar repetir a imagem */
+    background-position: center; /* Posiciona a imagem no centro da tela */
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 70rem;
+    height: 40rem;
+    margin-bottom: 7rem;
+}
+
+.content-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 2rem;
+    box-shadow: 5px 8px 10px ;
+    background: url(./img/backgrondDev.jpg);
+}
+
+h2 {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600;
+    color: #002a53;
+    text-shadow: 1px 1px 1px #63fdc0;
+}
+
+p {
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+    color: #002a53;
+    text-shadow: 1px 1px 1px #63fdc0;
+    font-size: 4rem;
+}
+
+button {
+    width: 12rem;
+    height: 9rem;
+    border: transparent;
+    border-radius: 2rem;
+}
+
+.content-button {
+    color: #002a53;
+    font-size: 2rem;
+    margin: 0;
+}
+
+button:hover {
+    background-color: #63fdc0;
+    color: #002a53;
+    border: 1px solid #480097;
+}
